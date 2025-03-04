@@ -74,7 +74,7 @@ func Algorytm3(a, b int) int {
 
 func main() {
 	// Генерація випадкових чисел
-	// Деякі зміни
+	// Деякі зміни для гілки 2
 	rand.Seed(time.Now().UnixNano())
 	nums := make([][2]int, 1000)
 	for i := 0; i < 1000; i++ {
